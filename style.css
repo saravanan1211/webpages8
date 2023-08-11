@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img{
+    width: 15%;
+    margin-right: 80%;
+    padding: 10px 0px;
+
+}
+.navlinks{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: large;
+    color: white;
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    padding: 0px 40px;
+}
+.navlinks li a:hover{
+    background-color: blue;
+    color: blueviolet;
+    border-radius:10px;
+    padding: 5px 10px;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    margin-left: 20px;
+}
+.navlinks li:hover .dropdown{
+    display: block;
+}
+.navlinks li:hover .dropdown{
+    background-color: black;
+    color: green;
+
+}
+.drop{
+    width: 100%;
+    display: flex;
+}
+.drop p{
+    width: 100%;
+    margin-left:20px;
+    margin-top: 30px;
+
+}
+.down{
+    position: absolute;
+    width:100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.down img{
+    width: 40%;   
+}
+.down p{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.container-1{
+    width: 100%;
+    height: 100px;
+    background-color:red;
+}
+.navbar-1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+.logo-1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;    
+}
+.logo-1 h1{
+    color: white;
+   
+}
+.navlinks-1{
+    display: flex;
+    margin-top: 20px;
+    color:white; 
+    text-transform: capitalize;
+    font-size: large;
+    margin-right:70%;
+
+}
+.navlinks-1 li{
+    list-style-type: none;
+}
+.navlinks-1 li a{
+    text-decoration: none;    
+}
+.navlinks-2{
+    position: absolute;
+    display: flex;
+    margin-top: 20px;
+    color:white; 
+    text-transform: capitalize;
+    font-size: large;
+    
+}
+.navlinks-2 li{
+    list-style-type: none;
+}
+.navlinks-2 li a{
+    text-decoration: none;    
+}
+.navlinks-3{
+    position: absolute;
+    display: flex;
+    margin-top: 20px;
+    color:white; 
+    text-transform: capitalize;
+    font-size: large;
+    margin-left: 80%;
+    
+}
+.navlinks-3 li{
+    list-style-type: none;
+}
+.navlinks-3 li a{
+    text-decoration: none;    
+}
+
+
+
+
+
